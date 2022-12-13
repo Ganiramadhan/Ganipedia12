@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ganipedia12</string>
+    <string name="question">Hobby Saya adalah</string>
+    <string name="myHobby">Nonton Film</string>
+    <string name="jawabGames">Main Games</string>
+    <string name="jawabFilm">Nonton Film</string>
+    <string name="jawabCode">Ngoding Dong</string>
+
+</resources>

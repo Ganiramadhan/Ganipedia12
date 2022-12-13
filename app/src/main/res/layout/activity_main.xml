@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/question"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light" />
+    <TextView
+        android:id="@+id/textViewAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:paddingBottom="20dp"
+        android:text="@string/myHobby"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <ImageButton
+        android:id="@+id/buttonGames"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewAnswer"
+        android:src="@drawable/abc_vector_test"
+        android:contentDescription="@string/jawabGames" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jawabGames"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonGames"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView1" />
+    <ImageButton
+        android:id="@+id/buttonFilm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/abc_vector_test"
+        android:contentDescription="@string/jawabFilm" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jawabFilm"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonFilm"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView2" />
+    <ImageButton
+        android:id="@+id/buttonCode"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/abc_vector_test"
+        android:contentDescription="@string/jawabCode" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jawabCode"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonCode"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/textView3" />
+</RelativeLayout>
